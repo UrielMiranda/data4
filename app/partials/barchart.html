@@ -1,0 +1,16 @@
+<div ng-controller="barCtrl as bar" class="col-md-12">
+    <h3>Índice de Desarrollo Humano</h3>
+    <select name="state" ng-model="dropdownstate">
+        <option ng-repeat="option in dataset.name" value="0">{{option.name}}</option>
+    </select>
+    <select name="anio" ng-model="dropdownstate" >
+        <option value="0">2016</option>
+        <option value="1">2015</option>
+        <option value="2">2014</option>
+    </select>
+    <select name="sort" id="">
+        <option value="0">Ascendente</option>
+        <option value="1">Descendente</option>
+        <option value="2">Alfabéticamente</option>
+    </select>
+</div>
